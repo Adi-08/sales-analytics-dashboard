@@ -1,4 +1,4 @@
-::: {align="center"}
+
 # 📊 Sales Analytics Dashboard
 
 ### Turn sales records into clear business insights.
