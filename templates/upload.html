@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Upload CSV | Sales Analytics{% endblock %}
+
+{% block content %}
+<section class="page-heading">
+    <div><p class="eyebrow">BULK IMPORT</p><h1>Upload sales CSV</h1><p class="muted">Import multiple sale records from a CSV file.</p></div>
+</section>
+
+<section class="form-panel upload-panel">
+    <form method="post" action="{{ url_for('upload') }}" enctype="multipart/form-data">
+        <label class="field">CSV file
+            <input type="file" name="file" accept=".csv,text/csv" required>
+        </label>
+        <p class="help-text">Required columns: product, category, quantity, price, customer_name, sale_date. Use YYYY-MM-DD for dates.</p>
+        <button class="button button-primary" type="submit">Upload CSV</button>
+    </form>
+</section>
+{% endblock %}
