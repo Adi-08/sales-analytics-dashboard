@@ -236,8 +236,8 @@ BE --- Artificial Intelligence & Data Science
 
 ------------------------------------------------------------------------
 
-::: {align="center"}
+
 **Built to make sales data easier to manage and understand.** 🚀
 
 If you find this project useful, consider giving the repository a ⭐
-:::
+
